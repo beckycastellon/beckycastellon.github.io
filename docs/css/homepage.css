@@ -1,0 +1,66 @@
+h2 {
+color:red;
+}
+
+h1.title {
+  font-family: "trebuchet MS", Verdana, helvetica, sans-serif;
+  text-align: center;
+  background-color: rgba(168, 15, 15, 0.85);
+  color: white;
+  padding: 25px 0;
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+body {
+  background: rgb(238, 237, 228);
+  margin: 100px 0 0 0;
+  font-size: 1.2em;
+  font-family: "times new roman", georgia, garamond, serif;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 19px;
+  border: 1px solid green;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+.first {
+  border: 3px solid rgb(232, 42, 109);
+  background-color: rgb(69, 136, 208);
+  color: white;
+  font-size: 120%;
+  line-height: 1.4;
+}
+
+.everything {
+  /* border: 2px solid black; */
+  width: 70%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.cover {
+  border: 1px solid green;
+  /* float: right;
+  width: 48%; */
+}
+
+.intro {
+  border: 1px solid green;
+  /* width: 48%; */
+}
+
+/* @media screen and (max-width: 800px) {
+.cover {
+  float:none;
+  width: auto;
+} */
+}
