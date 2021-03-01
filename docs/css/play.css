@@ -1,0 +1,360 @@
+/* here is the stylesheet added when exporting from InDesign to HTML */
+
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(206, 206, 208);
+  font-family: Georgia, "Times New Roman", Garamond, serif;
+  /* width: 100%; */
+  margin: 0 auto;
+  padding-top: 80px;
+  font-size: 0.9rem;
+}
+
+div.everything {
+width: 60%;
+margin: 0 auto;
+background-color: white;
+}
+
+nav {
+background-color: rgb(176, 40, 50);
+  box-sizing: border-box;
+  width: 100%;
+  font-family: verdana, sans-serif;
+  font-size: .9rem;
+  position:fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+nav ul{
+list-style-type: none;
+ display: flex;
+ flex-direction: row;
+ text-align: center;
+ margin-right: 25px;
+}
+
+li ul {
+display:none;
+position: absolute;
+background-color: rgba(130, 130, 130, 0.91);
+width: 6rem;
+}
+
+li ul li {
+width: 6rem;
+/* font-size: .8em; */
+}
+
+nav ul li:hover ul {
+display:flex;
+flex-direction: column;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1em;
+  padding: .8rem 1rem;
+  display: block;
+  color: white;
+  text-align: center;
+  flex: 1 0 auto;
+}
+
+nav ul li:hover {
+  background-color: rgb(82, 82, 82);
+}
+
+nav ul li a:hover {
+  color:white;
+  font-size: .8rem;
+}
+
+li ul li a {
+padding: .3rem 1.5rem;
+font-size: .7rem;
+}
+
+li.home {
+  flex: 1 0 auto;
+  text-align: center;
+  padding-left: 30px;
+  margin-right: 0;
+}
+
+nav ul li.home:hover{
+  background-color: rgb(82, 82, 82);
+}
+
+nav ul li.home:hover a {
+  color: white;
+}
+
+.takemeup {
+  position: fixed;
+  bottom:-0.5rem;
+  right:0;
+  font-size:2rem;
+  background-color: rgb(241, 139, 13);
+  border:none;
+  width:3rem;
+  color:white;
+  text-align: center;
+}
+
+.takemeup a {
+  text-align: center;
+  color: white;
+  text-decoration:none;
+}
+
+section.dramatis {
+width: 85%;
+margin: 15px auto;
+  border: 3px solid rgb(176, 40, 50);
+  padding: 15px;
+  background-color: white;
+  line-height: 1.8;
+  font-size: 1em;
+}
+
+section.play {
+width: 100%;
+  background-color: white;
+  padding: 15px;
+  /* margin: 0 auto; */
+  /* margin: 30px auto; */
+  border: 2px solid black;
+}
+
+img {
+  display: block;
+  width:75%;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  /* align-content: center; this doesn't work */
+}
+
+section.contents {
+
+}
+
+div.sceneImage {
+
+}
+
+h1.title {
+  padding: 25px 0;
+  text-align:center;
+  text-decoration: underline;
+  font-kerning: auto;
+}
+
+h1.act {
+color: white;
+font-variant: small-caps;
+text-align: center;
+font-size: 2em;
+background-color: rgb(176, 40, 50);
+padding: 25px 0;
+}
+
+h2.scene {
+font-variant: small-caps;
+font-size: 1.5em;
+text-align: center;
+color:black;
+padding: 30px;
+}
+
+h2.firstscene {
+  font-variant: small-caps;
+  font-size: 1.5em;
+  text-align: center;
+  color:black;
+  padding: 30px;
+}
+
+h1, h2 {
+  position: relative;
+}
+
+h1 a, h2 a {
+  position: absolute;
+  top: -30px;
+}
+
+p.character {
+font-weight: bold;
+font-variant: small-caps;
+color: rgb(21, 22, 20);
+margin: 10px 0 8px 10%;
+}
+
+p.verseline {
+margin: 0 0 0 25%;
+text-align: left;
+margin-bottom: 6px;
+}
+
+p.charactername, p.charactername-table {
+  margin-left: 15px;
+  line-height: 1.8;
+}
+
+span.character_role {
+margin-left: 15px;
+font-size: .9rem;
+font-style: italic;
+color: rgb(203, 34, 34);
+}
+
+p.play_location {
+background-color: rgb(33, 148, 116);
+color: white;
+font-size: 1.5rem;
+font-style: italic;
+padding: 10px;
+margin-top: 10px;
+text-align: center;
+}
+
+h1.dramatishead {
+  color: rgb(176, 40, 50);
+}
+
+h2.location {
+font-style: italic;
+text-align: center;
+font-size: 1em;
+padding: 10px;
+background-color: rgb(33, 148, 116);
+color:white;
+}
+
+p.prose {
+
+}
+
+p.caption {
+  font-size: 0.8em;
+  text-align: center;
+  padding: 5px;
+}
+
+p.The-end {
+  font-style: italic;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 2em;
+  text-align: center;
+  padding: 20px;
+}
+
+img.hedgehog {
+  width: 30%;
+}
+
+h2.stagedirection {
+font-style: oblique;
+font-size: 0.9em;
+text-align: right;
+margin-right: 15px;
+color: rgb(176, 40, 50);
+padding: 10px;
+}
+
+span.stage_directions_inline {
+
+}
+
+@media screen and (max-width: 700px) {
+
+html {
+  font-size: 12px;
+}
+
+nav ul {
+flex-direction: column;
+align-items:center;
+justify-content: flex-end;
+}
+
+nav ul li {
+flex: 0 0 1rem;
+}
+
+nav ul li ul li {
+flex: 0 0 1rem;
+width: 6rem;
+}
+
+li ul li a {
+padding: .3rem 0;
+font-size: 1rem;
+}
+
+nav ul li a:hover {
+  color:white;
+  font-size: 1rem;
+  text-align: center;
+}
+
+li ul {
+display:none;
+position: absolute;
+background-color:  rgb(130, 130, 130);
+width: 6rem;
+}
+
+li ul li {
+width: 6rem;
+}
+
+nav ul li:hover ul {
+display:flex;
+flex-direction: column;
+}
+
+nav ul li ul li:hover {
+background:none;
+}
+
+p.verseline {
+  text-indent: -20px;
+  margin: 0 0 0 20%;
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+
+p.character {
+  margin:10px 0 8px 5%;
+}
+
+h1 a, h2 a {
+  top: -220px;
+}
+
+h1.act {
+  padding: 15px;
+}
+
+section.dramatis {
+margin-top: 100px;
+width: 95%;
+text-indent: -20px;
+}
+
+}
