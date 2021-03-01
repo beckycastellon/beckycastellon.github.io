@@ -1,5 +1,16 @@
+html {
+  font-size: 14px;
+}
+
 h2 {
-color:red;
+color:rgb(176, 40, 50);
+}
+
+.readit a{
+  text-decoration: none;
+  color:rgb(176, 40, 50);
+  font-size: 1.6rem;
+  margin-left: 15px;
 }
 
 h1.title {
@@ -7,7 +18,7 @@ h1.title {
   text-align: center;
   background-color: rgba(168, 15, 15, 0.85);
   color: white;
-  padding: 25px 0;
+  padding: 15px 0;
   margin-top: 0;
   position: fixed;
   top: 0;
@@ -15,52 +26,77 @@ h1.title {
 }
 
 body {
-  background: rgb(238, 237, 228);
+  background: rgb(242, 242, 250);
   margin: 100px 0 0 0;
-  font-size: 1.2em;
+  font-size: 1rem;
   font-family: "times new roman", georgia, garamond, serif;
+    line-height: 1.4;
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 19px;
-  border: 1px solid green;
-  padding: 20px;
+  /* margin-top: 0;
+  margin-bottom: 10px;
+  padding: 20px; */
+  text-align: left;
+  font-size: 1rem;
+  padding: 10px;
+  margin: 0 10px;
 }
 
 img {
   width: 100%;
+  height: auto;
 }
 
 .first {
-  border: 3px solid rgb(232, 42, 109);
-  background-color: rgb(69, 136, 208);
-  color: white;
-  font-size: 120%;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
   line-height: 1.4;
+  padding: 10px;
+  margin: 0 10px;
 }
 
 .everything {
-  /* border: 2px solid black; */
   width: 70%;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 700px;
 }
 
 .cover {
-  border: 1px solid green;
-  /* float: right;
-  width: 48%; */
+  /* border: 1px red solid; */
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 48%;
+  margin-bottom: 50px;
 }
 
 .intro {
-  border: 1px solid green;
-  /* width: 48%; */
+  background-color: white;
+  border: solid black 1px;
+  float: right;
+  width: 48%;
+    line-height: 1.4;
 }
 
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
+.everything {
+  margin: 10px;
+  width: 90%;
+}
 .cover {
   float:none;
-  width: auto;
-} */
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.intro {
+  width: 90%;
+  margin-bottom: 50px;
+}
+html {
+  font-size: 13px;
+}
 }
